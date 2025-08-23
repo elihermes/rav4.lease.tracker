@@ -8,7 +8,7 @@ from datetime import date, datetime, timedelta
 # -----------------------------
 # App setup (always dark)
 # -----------------------------
-st.set_page_config(page_title="מנהל קילומטראז' ליסינג", layout="wide")
+st.set_page_config(page_title="מנהמל קילומטראז' ליסינג", layout="wide")
 st.title("🚗 מנהתל קילומטראז' לליסינג")
 
 # Force dark theme + RTL CSS
