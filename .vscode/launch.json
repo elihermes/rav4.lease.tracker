@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Streamlit: run Rav4.py",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "Rav4.py", "--server.port", "8501"],
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
