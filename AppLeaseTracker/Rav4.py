@@ -61,7 +61,11 @@ DEFAULT_START_DATE = date(2025, 4, 20)
 DEFAULT_TERM_YEARS = 3
 DEFAULT_ANNUAL_CAP = 20_000
 DEFAULT_PENALTY_PER_KM = 1.18
-DB_PATH = "lease_tracker.db"
+# DB_PATH = "lease_tracker.db"
+
+import os
+DB_PATH = os.path.join(os.path.dirname(__file__), "lease_tracker.db")
+
 
 @st.cache_resource
 def get_conn(db_path: str):
